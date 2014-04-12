@@ -72,7 +72,9 @@ as their init system, perform the following steps:
 Time saving tips
 
   * preload the with `docker pull opencrowbar/centos:6.5-4`
+                     (For Ubuntu : `docker pull opencrowbar/ubuntu`)
   * test docker, use `docker run -i -t centos /bin/bash`
+                     (For Ubuntu :  `docker run -i -t ubuntu /bin/bash`)
   * a caching proxy server (e.g.: Squid) is highly recommended
 
 ### The docker-admin command and its environment
